@@ -15,8 +15,10 @@ A minimal working prototype to test core combat mechanics.
 - Health bar UI
 
 **What You'll See:**
-- Blue square = Player (you!)
-- Red squares = Enemies
+- **Atlantean Hero** sprite (blue tunic, gold armor) = Player (you!)
+- **Wolf** sprites (grey with red eyes) = Basic enemies
+- **Bandit** sprite (dark hooded figure) = Medium enemy
+- **Sea Creature** sprite (purple mystical being) = Tough enemy
 - Health bars above enemies
 - Your health bar in top-left corner
 
@@ -100,14 +102,14 @@ atlantis_prototype/
 
 ## 🐛 Known Limitations
 
-This is a bare-bones prototype:
-- No sprites (using colored rectangles)
-- No animations (except attack pulse)
-- No sound effects or music
-- No multiple abilities
-- No inventory or equipment
-- No XP/leveling
-- No world exploration
+This is a prototype with basic features:
+- ✅ **Sprites added!** (Atlantean hero, wolf, bandit, sea creature)
+- ⚠️ Limited animations (attack pulse only, no walk cycles yet)
+- ❌ No sound effects or music
+- ❌ No multiple abilities (just basic attack)
+- ❌ No inventory or equipment
+- ❌ No XP/leveling system
+- ❌ No world exploration (just arena)
 
 **These will be added in future iterations!**
 

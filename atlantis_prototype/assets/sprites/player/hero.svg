@@ -1,0 +1,37 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Atlantean Hero - Top-down view -->
+
+  <!-- Shadow -->
+  <ellipse cx="32" cy="56" rx="12" ry="4" fill="#00000040"/>
+
+  <!-- Body (Blue tunic) -->
+  <ellipse cx="32" cy="36" rx="16" ry="20" fill="#3498db"/>
+
+  <!-- Belt (Gold) -->
+  <rect x="20" y="34" width="24" height="4" fill="#f39c12" rx="1"/>
+
+  <!-- Arms -->
+  <ellipse cx="18" cy="32" rx="6" ry="10" fill="#e8be8f"/>
+  <ellipse cx="46" cy="32" rx="6" ry="10" fill="#e8be8f"/>
+
+  <!-- Head (skin tone) -->
+  <circle cx="32" cy="18" r="10" fill="#f4c8a3"/>
+
+  <!-- Hair (dark brown) -->
+  <ellipse cx="32" cy="14" rx="11" ry="8" fill="#5d4037"/>
+
+  <!-- Headband (gold) -->
+  <rect x="24" y="14" width="16" height="3" fill="#f39c12" rx="1"/>
+
+  <!-- Eyes -->
+  <circle cx="28" cy="18" r="2" fill="#2c3e50"/>
+  <circle cx="36" cy="18" r="2" fill="#2c3e50"/>
+
+  <!-- Armor shoulders (gold accent) -->
+  <ellipse cx="20" cy="26" rx="6" ry="5" fill="#f39c12"/>
+  <ellipse cx="44" cy="26" rx="6" ry="5" fill="#f39c12"/>
+
+  <!-- Weapon indicator (sword at belt) -->
+  <rect x="40" y="30" width="3" height="12" fill="#95a5a6" rx="1"/>
+  <polygon points="41.5,28 39,30 44,30" fill="#95a5a6"/>
+</svg>

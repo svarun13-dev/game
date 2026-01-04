@@ -20,7 +20,7 @@ var player: CharacterBody2D = null
 var attack_cooldown: float = 0.0
 
 # Nodes
-@onready var sprite: ColorRect = $Sprite2D
+@onready var sprite: Sprite2D = $Sprite2D
 @onready var health_bar: ProgressBar = $HealthBar
 
 func _ready() -> void:

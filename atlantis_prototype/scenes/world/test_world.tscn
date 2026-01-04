@@ -1,8 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://world_001"]
+[gd_scene load_steps=5 format=3 uid="uid://world_001"]
 
 [ext_resource type="PackedScene" uid="uid://player_001" path="res://scenes/player/player.tscn" id="1_player"]
 [ext_resource type="PackedScene" uid="uid://enemy_001" path="res://scenes/enemies/enemy.tscn" id="2_enemy"]
-[ext_resource type="PackedScene" uid="uid://hud_001" path="res://scenes/ui/player_hud.tscn" id="3_hud"]
+[ext_resource type="PackedScene" uid="uid://bandit_001" path="res://scenes/enemies/bandit.tscn" id="3_bandit"]
+[ext_resource type="PackedScene" uid="uid://creature_001" path="res://scenes/enemies/sea_creature.tscn" id="4_creature"]
+[ext_resource type="PackedScene" uid="uid://hud_001" path="res://scenes/ui/player_hud.tscn" id="5_hud"]
 
 [node name="TestWorld" type="Node2D"]
 
@@ -25,16 +27,16 @@ horizontal_alignment = 1
 [node name="Player" parent="." instance=ExtResource("1_player")]
 position = Vector2(0, 0)
 
-[node name="Enemy1" parent="." instance=ExtResource("2_enemy")]
+[node name="Wolf1" parent="." instance=ExtResource("2_enemy")]
 position = Vector2(200, 0)
 
-[node name="Enemy2" parent="." instance=ExtResource("2_enemy")]
+[node name="Wolf2" parent="." instance=ExtResource("2_enemy")]
 position = Vector2(-200, 150)
 
-[node name="Enemy3" parent="." instance=ExtResource("2_enemy")]
+[node name="Bandit1" parent="." instance=ExtResource("3_bandit")]
 position = Vector2(150, -200)
 
-[node name="Enemy4" parent="." instance=ExtResource("2_enemy")]
+[node name="SeaCreature1" parent="." instance=ExtResource("4_creature")]
 position = Vector2(-150, -150)
 
-[node name="PlayerHUD" parent="." instance=ExtResource("3_hud")]
+[node name="PlayerHUD" parent="." instance=ExtResource("5_hud")]

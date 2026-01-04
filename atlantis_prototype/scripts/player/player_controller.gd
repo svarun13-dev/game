@@ -18,7 +18,7 @@ var facing_direction: Vector2 = Vector2.RIGHT
 var can_attack: bool = true
 
 # Nodes
-@onready var sprite: ColorRect = $Sprite2D
+@onready var sprite: Sprite2D = $Sprite2D
 @onready var attack_hitbox: Area2D = $AttackHitbox
 @onready var animation_player: AnimationPlayer = $AnimationPlayer
 

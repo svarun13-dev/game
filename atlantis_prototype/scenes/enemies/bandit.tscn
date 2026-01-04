@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://enemy_001"]
+[gd_scene load_steps=6 format=3 uid="uid://bandit_001"]
 
 [ext_resource type="Script" path="res://scripts/enemies/enemy_base.gd" id="1_enemy"]
 [ext_resource type="Texture2D" path="res://assets/sprites/enemies/wolf.svg" id="2_wolf"]
@@ -8,13 +8,13 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_enemy"]
 size = Vector2(28, 28)
 
-[node name="Enemy" type="CharacterBody2D" groups=["enemies"]]
+[node name="Bandit" type="CharacterBody2D" groups=["enemies"]]
 collision_layer = 4
 collision_mask = 1
 script = ExtResource("1_enemy")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("2_wolf")
+texture = ExtResource("3_bandit")
 offset = Vector2(0, -8)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

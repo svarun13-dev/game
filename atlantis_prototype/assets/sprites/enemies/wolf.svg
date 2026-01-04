@@ -1,0 +1,40 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- Wolf - Top-down view -->
+
+  <!-- Shadow -->
+  <ellipse cx="32" cy="56" rx="14" ry="4" fill="#00000040"/>
+
+  <!-- Body -->
+  <ellipse cx="32" cy="36" rx="18" ry="22" fill="#78909c"/>
+
+  <!-- Darker back -->
+  <ellipse cx="32" cy="30" rx="16" ry="14" fill="#546e7a"/>
+
+  <!-- Head -->
+  <ellipse cx="32" cy="16" rx="14" ry="12" fill="#78909c"/>
+
+  <!-- Ears -->
+  <ellipse cx="24" cy="10" rx="4" ry="8" fill="#546e7a"/>
+  <ellipse cx="40" cy="10" rx="4" ry="8" fill="#546e7a"/>
+
+  <!-- Snout -->
+  <ellipse cx="32" cy="20" rx="8" ry="6" fill="#90a4ae"/>
+
+  <!-- Nose -->
+  <ellipse cx="32" cy="24" rx="3" ry="2" fill="#37474f"/>
+
+  <!-- Eyes (fierce red) -->
+  <circle cx="28" cy="14" r="3" fill="#ff5252"/>
+  <circle cx="36" cy="14" r="3" fill="#ff5252"/>
+
+  <!-- Front legs -->
+  <rect x="24" y="44" width="5" height="14" fill="#546e7a" rx="2"/>
+  <rect x="35" y="44" width="5" height="14" fill="#546e7a" rx="2"/>
+
+  <!-- Paws -->
+  <ellipse cx="26.5" cy="56" rx="3" ry="2" fill="#37474f"/>
+  <ellipse cx="37.5" cy="56" rx="3" ry="2" fill="#37474f"/>
+
+  <!-- Tail hint -->
+  <ellipse cx="32" cy="54" rx="10" ry="6" fill="#78909c"/>
+</svg>
