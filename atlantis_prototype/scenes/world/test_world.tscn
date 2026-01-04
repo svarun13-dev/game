@@ -1,0 +1,40 @@
+[gd_scene load_steps=3 format=3 uid="uid://world_001"]
+
+[ext_resource type="PackedScene" uid="uid://player_001" path="res://scenes/player/player.tscn" id="1_player"]
+[ext_resource type="PackedScene" uid="uid://enemy_001" path="res://scenes/enemies/enemy.tscn" id="2_enemy"]
+[ext_resource type="PackedScene" uid="uid://hud_001" path="res://scenes/ui/player_hud.tscn" id="3_hud"]
+
+[node name="TestWorld" type="Node2D"]
+
+[node name="Background" type="ColorRect" parent="."]
+offset_left = -1000.0
+offset_top = -1000.0
+offset_right = 1000.0
+offset_bottom = 1000.0
+color = Color(0.15, 0.2, 0.15, 1)
+
+[node name="Title" type="Label" parent="."]
+offset_left = -200.0
+offset_top = -300.0
+offset_right = 200.0
+offset_bottom = -250.0
+theme_override_font_sizes/font_size = 32
+text = "Atlantis RPG - Prototype"
+horizontal_alignment = 1
+
+[node name="Player" parent="." instance=ExtResource("1_player")]
+position = Vector2(0, 0)
+
+[node name="Enemy1" parent="." instance=ExtResource("2_enemy")]
+position = Vector2(200, 0)
+
+[node name="Enemy2" parent="." instance=ExtResource("2_enemy")]
+position = Vector2(-200, 150)
+
+[node name="Enemy3" parent="." instance=ExtResource("2_enemy")]
+position = Vector2(150, -200)
+
+[node name="Enemy4" parent="." instance=ExtResource("2_enemy")]
+position = Vector2(-150, -150)
+
+[node name="PlayerHUD" parent="." instance=ExtResource("3_hud")]
