@@ -1,6 +1,8 @@
-# Atlantis RPG - Playable Prototype
+# Atlantis RPG - Playable Prototype (Godot 4.5)
 
 A minimal working prototype to test core combat mechanics.
+
+**Built specifically for Godot 4.5** with modern best practices!
 
 ## 🎮 What's Included
 
@@ -21,8 +23,10 @@ A minimal working prototype to test core combat mechanics.
 ## 🚀 How to Run
 
 ### Step 1: Install Godot
-1. Download **Godot 4.2 or later** from: https://godotengine.org/download
+1. Download **Godot 4.5 or later** from: https://godotengine.org/download
 2. Extract and run the Godot executable
+
+**Note:** This project uses Godot 4.5 features. Earlier versions may not work correctly.
 
 ### Step 2: Open the Project
 1. Launch Godot
@@ -69,8 +73,14 @@ This prototype validates:
 ## 🔧 Technical Details
 
 **Built with:**
-- Godot Engine 4.2+
-- GDScript
+- Godot Engine 4.5+
+- GDScript with full type hints
+- Modern Godot 4.5 features:
+  - `@export_group` for organized inspector
+  - `class_name` for type safety
+  - Typed function signatures
+  - `maxf()`/`minf()` float functions
+  - `is_instance_valid()` checks
 - Resolution: 1280x720
 
 **Structure:**
@@ -122,9 +132,13 @@ After testing this prototype:
 ## ⚠️ Troubleshooting
 
 **Game won't start?**
-- Make sure you're using Godot 4.2 or later
+- Make sure you're using **Godot 4.5 or later** (4.4 and below may have issues)
 - Check that all files were extracted properly
 - Try pressing F5 instead of clicking Play
+
+**Script errors about types?**
+- This project uses Godot 4.5's type system
+- Download the latest version of Godot 4.5+
 
 **Enemies not moving?**
 - They need to detect you first (get closer)
